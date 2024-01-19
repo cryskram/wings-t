@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b263b;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.place {
+    /* background-color: #ee6c4d; */
+    padding: 8px 16px;
+    border-radius: 38px;
+    text-align: center;
+    border: dashed #ee6c4d;
+}
+
+.quote {
+    font-family: "Dosis";
+    color: #edf6f9;
+    font-size: 38px;
+}
+
+.p1 {
+    background-color: #ee6c4d;
+    box-shadow: 0 0 28px #ee6c4d;
+}
+
+#author {
+    font-family: "Quicksand";
+}
